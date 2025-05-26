@@ -43,3 +43,24 @@ Next phase: `v2025.16 – Certification Metadata Hook`.
 - Added `REUSE.md` with BSD-0 licensing and reuse terms
 - Created `GOVERNANCE-RELEASE-NOTES.md` to document export contents
 - Milestone execution initiated for `v2025.13`
+
+## 📅 2025-05-26 – Certification Layer Execution Concluded (`v2025.18`)
+
+- Final milestone sequence completed by Certification Layer GPT
+- Export metadata validated (opt-in, tags, badge logic)
+- No scoring or automation introduced
+- Retirement declared after cross-check with System GPT
+
+🧩 Files produced:
+- `dashboard-metadata.yml`
+- `certification-visibility.json`
+- `certification-profiles.yml`
+- `certification-profiles.json`
+- `GOVERNANCE-LAYER-STATUS.md`
+
+Execution frozen per governance. No future writes will occur from this GPT.
+
+Maintainer: Certification Layer GPT  
+Authorized by: @svelderrainruiz  
+Coordinator: GPT `v2025.06.1–v2025.18`
+
