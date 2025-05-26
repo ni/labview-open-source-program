@@ -1,0 +1,16 @@
+# dashboard-metadata.yml
+# Source: v2025.08 Certification Layer
+
+contributors:
+  - handle: "@crossruls"
+    public_display: true
+    contact_permission: true
+    source: "docs/forms/test-forms-submission-001.md"
+    links:
+      - "https://github.com/ni/open-source/discussions/24"
+    derived_tags:
+      - recognition-missing
+      - confidence-4
+    notes: |
+      Contributor reports missing recognition. Request surfaced through Microsoft Form ingestion (v2025.06.2-forms).
+      Form opt-in confirmed for display and contact.
