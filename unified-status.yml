@@ -1,0 +1,22 @@
+framework: v2025.05-governance-hardened
+maintainer: "@svelderrainruiz"
+timestamp: "2025-05-26T11:45Z"
+execution_mode: EFFICIENT-AI-MODE:v2025.11+
+status_source: "v2025.14 – Unified Reporting Layer"
+
+milestones:
+  v2025.06.1: { title: ..., status: complete, ... }
+  ...
+  v2025.15: { title: Recognition Feed, status: active, executor: this-thread }
+
+contributors:
+  - github: "@svelderrainruiz"
+    badge: Maintainer
+    status: eligible
+  ...
+
+gpts:
+  - thread: v2025.06.2-forms
+    mode: autonomous
+    milestones: [...]
+  ...
