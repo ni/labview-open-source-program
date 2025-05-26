@@ -1,0 +1,30 @@
+{
+  "framework_version": "v2025.05-governance-hardened",
+  "milestone": "v2025.16",
+  "contributors": [
+    {
+      "handle": "@crossruls",
+      "consent": {
+        "public_display": true,
+        "contact_ok": true
+      },
+      "metadata_source": [
+        "docs/forms/test-forms-submission-001.md",
+        "docs/certification/dashboard-metadata.yml"
+      ],
+      "derived_tags": [
+        "recognition-missing",
+        "confidence-4"
+      ],
+      "badge_status": {
+        "test_coordinator": false,
+        "maintainer_eligible": false,
+        "steerco_nominee": false
+      },
+      "links": [
+        "https://github.com/ni/open-source/discussions/24"
+      ],
+      "notes": "Contributor submitted a public, opt-in form flagging recognition inconsistency. No PR or label-based triggers present to match badge criteria."
+    }
+  ]
+}
