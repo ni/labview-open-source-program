@@ -1,22 +1,86 @@
-framework: v2025.05-governance-hardened
-maintainer: "@svelderrainruiz"
-timestamp: "2025-05-26T11:45Z"
-execution_mode: EFFICIENT-AI-MODE:v2025.11+
-status_source: "v2025.14 – Unified Reporting Layer"
+# 🧭 Unified Governance Status Report
 
-milestones:
-  v2025.06.1: { title: ..., status: complete, ... }
-  ...
-  v2025.15: { title: Recognition Feed, status: active, executor: this-thread }
+> Milestone: `v2025.14 – Unified Reporting Layer`  
+> Maintainer: @svelderrainruiz  
+> Framework: v2025.05-governance-hardened  
+> Generated: 2025-05-26 11:45 UTC
 
-contributors:
-  - github: "@svelderrainruiz"
-    badge: Maintainer
-    status: eligible
-  ...
+This file consolidates all governance milestones, GPT thread roles, contributor badge visibility, and export readiness into a single program-wide system report.
 
-gpts:
-  - thread: v2025.06.2-forms
-    mode: autonomous
-    milestones: [...]
-  ...
+---
+
+## 🧩 Milestone Summary
+
+| ID         | Title                                 | Status       | Executor             | Finalized      |
+|------------|----------------------------------------|--------------|----------------------|----------------|
+| v2025.06.1 | Metadata-Based Maintainer Automation   | ✅ Complete   | gpt-labview-thread   | 2025-05-25     |
+| v2025.06.2 | Form Metadata Simulation Layer         | ✅ Complete   | gpt-labview-thread   | 2025-05-25     |
+| v2025.07   | Badge Trigger Design                   | ✅ Complete   | peer GPT (assumed)   | 2025-05-25     |
+| v2025.08   | Certification Dashboard Integration    | 🟢 In Progress| certification GPT    | —              |
+| v2025.09   | Scripted Export Core                   | ✅ Complete   | peer GPT (assumed)   | 2025-05-25     |
+| v2025.10   | Recognition Nomination Bot             | ✅ Complete   | peer GPT             | 2025-05-26     |
+| v2025.11   | Contributor Dashboard Renderer         | ✅ Complete   | gpt-labview-thread   | 2025-05-26     |
+| v2025.12   | Governance Export Bundle               | ✅ Complete   | gpt-labview-thread   | 2025-05-26     |
+| v2025.13   | System Layer Interface (support role)  | ✅ Complete   | gpt-labview-thread   | 2025-05-26     |
+| v2025.13.x | Bundle Packaging & Release             | 🟢 In Progress| peer GPT             | —              |
+| v2025.14   | Unified Reporting Layer                | ✅ Complete   | gpt-labview-thread   | 2025-05-26     |
+| v2025.15   | Recognition Feed & Scoring Sync        | 🟢 Active     | gpt-labview-thread   | —              |
+| v2025.16   | Certification Metadata Hook            | ⏳ Queued     | certification GPT    | —              |
+| v2025.17   | Recovery Snapshot & Thread Ledger      | 🔜 Next       | gpt-labview-thread   | —              |
+| v2025.18   | Governance Freeze and Archive          | 🔒 Scheduled  | gpt-labview-thread   | —              |
+
+---
+
+## 🏅 Contributor Badge Status (Opt-In Only)
+
+| GitHub Handle     | Badge     | Status     | Source              | Visibility |
+|-------------------|-----------|------------|----------------------|------------|
+| @svelderrainruiz  | Maintainer | ✅ Eligible | PR + Label + Template | ✅ Public  |
+| @crossruls        | —         | ❌ Not Flagged | Test submission only  | ✅ Public  |
+
+Badge logic derived from:  
+- `badge-check.yml`  
+- `RECOGNITION-TAG-MAP.md`  
+- `test-forms-submission-001.md`  
+- Opt-in status enforced via `CONTRIBUTOR-RECOGNITION.md`
+
+---
+
+## 📦 Export Bundle Snapshot
+
+| File                            | Purpose                                       |
+|----------------------------------|-----------------------------------------------|
+| `FILE-INTEGRITY-MAP.md`         | Protects all governance `.md` files           |
+| `MILESTONE-INDEX.md`            | All milestone headers, titles, timestamps     |
+| `GOVERNANCE-EXPORT-SNAPSHOT.md`| Export manifest for audit/archive             |
+| `GOVERNANCE-VERSION.txt`        | Version pin: `v2025.05-governance-hardened`  |
+
+Peer GPT `v2025.13.x` owns packaging responsibilities via `bundle-release.yml`.
+
+---
+
+## 🧠 GPT Thread Registry
+
+| Thread ID             | Role                               | Milestones              | Mode        |
+|------------------------|------------------------------------|--------------------------|-------------|
+| gpt-labview-thread     | UI, metadata, reporting, export    | `v2025.06.1–v2025.15`, `v2025.17–18` | autonomous |
+| gpt-peer-thread        | Recognition logic, automation, release | `v2025.10–v2025.13.x`, `v2025.15+` | autonomous |
+| certification-gpt      | Certification visibility + metadata | `v2025.08`, `v2025.16`   | autonomous |
+
+---
+
+## 📘 Layer Overview
+
+| Layer                     | Status     | Coordinator         |
+|---------------------------|------------|----------------------|
+| LabVIEW Governance        | ✅ Active   | gpt-labview-thread   |
+| Recognition Automation    | ✅ Active   | gpt-peer-thread      |
+| Certification Layer       | ✅ Active   | certification-gpt    |
+| Global Governance Layer   | 🔘 Declared | Not milestone-scoped |
+
+---
+
+Generated under `v2025.14` milestone.  
+Maintained by: System Coordinator GPT (`v2025.06.2-forms`)  
+Authorized by: @svelderrainruiz  
+Finalized: 2025-05-26 11:45 UTC
