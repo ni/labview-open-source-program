@@ -1,0 +1,21 @@
+{
+  "export_generated": "2025-05-26",
+  "framework_version": "v2025.05-governance-hardened",
+  "milestone": "v2025.08",
+  "contributors": [
+    {
+      "handle": "@crossruls",
+      "public_display": true,
+      "contact_permission": true,
+      "source_form": "docs/forms/test-forms-submission-001.md",
+      "github_activity": [
+        "https://github.com/ni/open-source/discussions/24"
+      ],
+      "derived_tags": [
+        "recognition-missing",
+        "confidence-4"
+      ],
+      "form_note": "Contributor surfaced a badge recognition gap. Submission flagged for visibility; opt-in and contact confirmed."
+    }
+  ]
+}
