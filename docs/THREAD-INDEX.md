@@ -1,6 +1,6 @@
 # Governance Thread Index
 
-## Version: v2025.4
+## Version: v2025.4.2
 
 This index catalogs all versioned governance threads and contracts for GPT agents in the LabVIEW Open Source Program.
 
@@ -12,7 +12,7 @@ This index catalogs all versioned governance threads and contracts for GPT agent
 - `THREAD-v2025.99-GOVERNANCE-SENTINEL.md`: Declares the Governance Sentinel GPT and its inheritance structure
 - `THREAD-v2025.3-REPLICATION.md`: Declares blueprint-compliant GPT replication
 - `THREAD-v2025.4-LAUNCH.md`: Declares the formal launch of the GPT governance layer
-- `THREAD-v2025.4-CONTRIBUTOR-GUIDE.md`: Declares the Contributor Guide GPT for contribution-focused assistance
+- `THREAD-v2025.4.2-CONTRIBUTOR-GUIDE.md`: Precision-bound Contributor Guide GPT declaration
 - `THREAD-v2025.4-CORRECTION-MODEL.md`: Declares runtime enforcement rules for all GPTs under v2025.4
 - `THREAD-v2025.4-INTERACTION-MODEL.md`: Declares the interaction structure for all GPT responses
 
