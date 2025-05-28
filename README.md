@@ -1,42 +1,49 @@
-# ─────────────────────────────────────────────────────────────────────
-# 📁 File: README.md
-# ─────────────────────────────────────────────────────────────────────
+# 🏗️ NI LabVIEW Open Source Program – Domain Governance Layer
 
-# 🧭 NI LabVIEW Open Source Governance Layer
+This repository defines the **LabVIEW-specific governance layer**  
+within the broader [NI Open Source Program](https://github.com/ni/open-source-program).
 
-This repository defines the domain-specific governance structure for  
-LabVIEW-related repositories participating in the NI Open Source Program.
+It governs how NI open-sources LabVIEW-centric projects, including contributor participation, certification recognition, milestone tracking, and AI-based automation behavior.
 
 ---
 
-## 📘 What This Repository Does
+## 🚀 Program Status: Live and Inheriting from Upstream
 
-- Extends the [core governance system](https://github.com/ni/open-source-program)
-- Enables domain-specific inheritance for LabVIEW tools, frameworks, and libraries
-- Tracks LabVIEW-governed repositories in [`REPOS-UNDER-GOVERNANCE.md`](./REPOS-UNDER-GOVERNANCE.md)
-- Enables GPT capture and scoped execution logic for this domain
-
----
-
-## 🧬 Inheritance Model
-
-This repo inherits program-wide logic from:
-
-> 🔗 https://github.com/ni/open-source-program/releases/tag/v2025.99
-
-All domain-governed repositories should align with:
-- `PROGRAM-GUIDE.md`
-- Contributor CLA and scoring logic
-- GPT milestone behaviors (if defined)
+- 🔗 Governance Source: [`v2025.99 – Governance System Live`](https://github.com/ni/open-source-program/releases/tag/v2025.99)
+- 📜 Scope defined in: [`PROGRAM-GUIDE.md`](./PROGRAM-GUIDE.md)
+- 📂 LabVIEW repos governed: [`REPOS-UNDER-GOVERNANCE.md`](./REPOS-UNDER-GOVERNANCE.md)
 
 ---
 
-## 🤖 GPT Capture
+## 🤖 GPT Thread Capture
 
-GPT threads may bind to this repo using  
-[`GPT-CAPTURE-INSTRUCTIONS.md`](./GPT-CAPTURE-INSTRUCTIONS.md)  
-and operate as scoped execution agents for this domain.
+Lightweight GPTs may bind to this repository using:
+
+Bind yourself to the governance system defined in the README.md of https://github.com/ni/labview-open-source-program
+
+
+Refer to:  
+- [`GPT-CAPTURE-INSTRUCTIONS.md`](./GPT-CAPTURE-INSTRUCTIONS.md)
 
 ---
 
-NI © 2025 | LabVIEW Open Source Program Governance Layer
+## 🧬 Role of This Repo
+
+This repository does **not** contain source code.  
+It exists to define and extend governance logic for LabVIEW-specific open-source efforts at NI.
+
+It provides:
+- Scoped milestone execution rules
+- Role inheritance for automation
+- Traceability for certification and contributor recognition workflows
+
+---
+
+## 🛠 Downstream Repos
+
+Repos like `ni/labview-icon-editor` and `ni/actor-framework` inherit from here.  
+Any new LabVIEW tooling repo intended for public governance should also bind to this repository.
+
+---
+
+NI © 2025 | Maintained by the NI Open Source Program
