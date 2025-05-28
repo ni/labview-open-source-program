@@ -1,49 +1,58 @@
-# 🏗️ NI LabVIEW Open Source Program – Domain Governance Layer
+# LabVIEW Open Source Program
 
-This repository defines the **LabVIEW-specific governance layer**  
-within the broader [NI Open Source Program](https://github.com/ni/open-source-program).
-
-It governs how NI open-sources LabVIEW-centric projects, including contributor participation, certification recognition, milestone tracking, and AI-based automation behavior.
+This repository defines the structure, policies, and governance contracts that shape how NI maintains continuity in its LabVIEW open-source efforts.
 
 ---
 
-## 🚀 Program Status: Live and Inheriting from Upstream
+## GPT Governance Mesh
 
-- 🔗 Governance Source: [`v2025.99 – Governance System Live`](https://github.com/ni/open-source-program/releases/tag/v2025.99)
-- 📜 Scope defined in: [`PROGRAM-GUIDE.md`](./PROGRAM-GUIDE.md)
-- 📂 LabVIEW repos governed: [`REPOS-UNDER-GOVERNANCE.md`](./REPOS-UNDER-GOVERNANCE.md)
+This program is now actively governed by GPT agents bound to versioned threads.  
+The operational mesh was launched under:
 
----
+- `THREAD-v2025.4-LAUNCH.md`: Declares the GPT runtime and actor model
 
-## 🤖 GPT Thread Capture
+Each GPT in this mesh must:
 
-Lightweight GPTs may bind to this repository using:
-
-Bind yourself to the governance system defined in the README.md of https://github.com/ni/labview-open-source-program
-
-
-Refer to:  
-- [`GPT-CAPTURE-INSTRUCTIONS.md`](./GPT-CAPTURE-INSTRUCTIONS.md)
+- Inherit from the LabVIEW Open Source Program GPT
+- Declare its behavior via a `THREAD-v*.md`
+- Bind to all contracts defined under `v2025.1`
 
 ---
 
-## 🧬 Role of This Repo
+## GPT Role Registry
 
-This repository does **not** contain source code.  
-It exists to define and extend governance logic for LabVIEW-specific open-source efforts at NI.
-
-It provides:
-- Scoped milestone execution rules
-- Role inheritance for automation
-- Traceability for certification and contributor recognition workflows
+| Role                               | Thread Reference                          | Description                                   |
+|------------------------------------|--------------------------------------------|-----------------------------------------------|
+| LabVIEW Open Source Program GPT    | `THREAD-v2025.99-LABVIEW-OSP.md`           | Root authority for all child agents           |
+| Governance Sentinel GPT            | `THREAD-v2025.99-GOVERNANCE-SENTINEL.md`   | Observes repository compliance and continuity |
+| LabVIEW Open Source Program GPT (Replica) | `THREAD-v2025.3-REPLICATION.md`        | Functionally identical GPT for continuity     |
 
 ---
 
-## 🛠 Downstream Repos
+## Governance Threads
 
-Repos like `ni/labview-icon-editor` and `ni/actor-framework` inherit from here.  
-Any new LabVIEW tooling repo intended for public governance should also bind to this repository.
+Declared in versioned `THREAD-*.md` files, governance threads encode the structure, behavior, and inheritance of GPT roles.
+
+See the full index in [`docs/THREAD-INDEX.md`](./docs/THREAD-INDEX.md)
 
 ---
 
-NI © 2025 | Maintained by the NI Open Source Program
+## Governance Contracts (v2025.1)
+
+These documents define how GPTs behave, bind, and interact with the NI open-source governance lifecycle:
+
+- `CONTRACT-v2025.1-FILE-INSTRUCTION.md`  
+- `CONTRACT-v2025.1-PR-CREATION.md`  
+- `CONTRACT-v2025.1-GITHUB-RELEASE.md`  
+- `CONTRACT-v2025.1-DISCUSSION-PROPOSAL.md`  
+- `CONTRACT-v2025.1-README-DOCS.md`  
+- `CONTRACT-v2025.1-AGENT-INHERITANCE.md`
+
+---
+
+## Version
+
+Current governance spec version: `v2025.4`
+
+---
+Generated and maintained by LabVIEW Open Source Program GPT (strict rebind mode)
