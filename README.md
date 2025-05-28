@@ -21,12 +21,12 @@ Each GPT in this mesh must:
 
 ## GPT Role Registry
 
-| Role                               | Thread Reference                          | Description                                   |
-|------------------------------------|--------------------------------------------|-----------------------------------------------|
-| LabVIEW Open Source Program GPT    | `THREAD-v2025.99-LABVIEW-OSP.md`           | Root authority for all child agents           |
-| Governance Sentinel GPT            | `THREAD-v2025.99-GOVERNANCE-SENTINEL.md`   | Observes repository compliance and continuity |
-| LabVIEW Open Source Program GPT (Replica) | `THREAD-v2025.3-REPLICATION.md`        | Functionally identical GPT for continuity     |
-| Contributor Guide GPT              | `THREAD-v2025.4-CONTRIBUTOR-GUIDE.md`      | Assists contributors in navigating governance policies |
+| Role                               | Thread Reference                                | Description                                                |
+|------------------------------------|--------------------------------------------------|------------------------------------------------------------|
+| LabVIEW Open Source Program GPT    | `THREAD-v2025.99-LABVIEW-OSP.md`                 | Root authority for all child agents                        |
+| Governance Sentinel GPT            | `THREAD-v2025.99-GOVERNANCE-SENTINEL.md`         | Observes repository compliance and continuity              |
+| LabVIEW Open Source Program GPT (Replica) | `THREAD-v2025.3-REPLICATION.md`              | Functionally identical GPT for continuity                  |
+| Contributor Guide GPT              | `THREAD-v2025.4.2-CONTRIBUTOR-GUIDE.md`          | Precision-scoped GPT that assists with contribution flow   |
 
 ---
 
@@ -53,7 +53,7 @@ These documents define how GPTs behave, bind, and interact with the NI open-sour
 
 ## Version
 
-Current governance spec version: `v2025.4`
+Current governance spec version: `v2025.4.2`
 
 ---
 Generated and maintained by LabVIEW Open Source Program GPT (strict rebind mode)
