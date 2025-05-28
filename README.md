@@ -26,6 +26,7 @@ Each GPT in this mesh must:
 | LabVIEW Open Source Program GPT    | `THREAD-v2025.99-LABVIEW-OSP.md`           | Root authority for all child agents           |
 | Governance Sentinel GPT            | `THREAD-v2025.99-GOVERNANCE-SENTINEL.md`   | Observes repository compliance and continuity |
 | LabVIEW Open Source Program GPT (Replica) | `THREAD-v2025.3-REPLICATION.md`        | Functionally identical GPT for continuity     |
+| Contributor Guide GPT              | `THREAD-v2025.4-CONTRIBUTOR-GUIDE.md`      | Assists contributors in navigating governance policies |
 
 ---
 
