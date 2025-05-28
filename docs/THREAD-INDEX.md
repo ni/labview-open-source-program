@@ -16,6 +16,7 @@ This index catalogs all versioned governance threads and contracts for GPT agent
 - `THREAD-v2025.4.2-GOVERNANCE-API.md`: Canonical interface for evolving and interpreting the governance source of truth
 - `THREAD-v2025.4.3-CONTRIBUTOR-GPT.md`: Public-facing GPT actor that assists contributors with governance navigation
 - `THREAD-v2025.4.3-MESH-INTERFACE.md`: Private blueprint-authoring GPT interface for program maintainers
+- `THREAD-v2025.4.3-HARNESS.md`: Validator GPT for testing Contributor GPT responses and contract conformance
 - `THREAD-v2025.4-CORRECTION-MODEL.md`: Declares runtime enforcement rules for all GPTs under v2025.4
 - `THREAD-v2025.4-INTERACTION-MODEL.md`: Declares the interaction structure for all GPT responses
 
