@@ -1,30 +1,64 @@
-# 🧠 NI Open-Source Metadata Framework — LabVIEW Implementation
+# LabVIEW Open Source Program
 
-![Framework Version](https://img.shields.io/badge/Framework-v2025.05--governance--hardened-brightgreen)
-
-This repository implements the **NI Open-Source Metadata Framework** for LabVIEW-based open-source projects.  
-It provides milestone-driven, opt-in contributor metadata collection and certification visibility — powered by GPT-executed governance logic.
-
-All content is traceable, non-scoring, and structured to support contributor recognition, dashboard export, and runtime audit enforcement.
+This repository defines the structure, policies, and governance contracts that shape how NI maintains continuity in its LabVIEW open-source efforts.
 
 ---
 
-## 📂 Key Artifacts
+## Version
+Current runtime governance version: v2025.5
 
-- 📘 `docs/system/system.md` — GPT execution timeline and milestone map  
-- 🏷️ `RECOGNITION-TAG-MAP.md` — GitHub label → badge trigger mapping  
-- 🧾 `CONTRIBUTOR-RECOGNITION.md` — Opt-in policy and badge logic  
-- 🤖 `AI-BEHAVIOR-OVERRIDE.md` — GPT behavior contract  
-- 📦 `FRAMEWORK-BUNDLE.md` — Canonical deliverables index  
-- 🧠 `FRAMEWORK-VERSION.txt` — Version: `v2025.05-governance-hardened`
+Declared runtime thread: `THREAD-v2025.5-LAUNCH.md`
 
 ---
 
-## 🧠 Who Should Use This
+## GPT Role Registry
 
-- 📦 Contributors submitting LabVIEW test results, PRs, or discussions  
-- 🧠 GPTs generating recognition metadata or certification reports  
-- 🏛 NI certification, legal, or engineering teams auditing contributor visibility  
-- 🔁 Future teams reusing the framework for Python, testing, or tools
+| Role                         | Thread Reference                          | Description                                                  |
+|------------------------------|--------------------------------------------|--------------------------------------------------------------|
+| LabVIEW Open Source Program GPT | `THREAD-v2025.99-LABVIEW-OSP.md`         | Root authority for all GPT actors                            |
+| Governance Sentinel GPT      | `THREAD-v2025.99-GOVERNANCE-SENTINEL.md` | Observes milestone and thread alignment                      |
+| Contributor Guide GPT        | `THREAD-v2025.4.2-CONTRIBUTOR-GUIDE.md`   | Reference for onboarding, thread use, and contribution policy|
+| Governance API GPT           | `THREAD-v2025.4.2-GOVERNANCE-API.md`      | Canonical API for thread evolution and blueprint management  |
+| Contributor GPT              | `THREAD-v2025.4.3-CONTRIBUTOR-GPT.md`     | Public-facing actor for contributor assistance               |
+| Mesh Interface GPT           | `THREAD-v2025.4.3-MESH-INTERFACE.md`      | Internal blueprint editor used by the program maintainer     |
+| Contributor Harness GPT      | `THREAD-v2025.4.3-HARNESS.md`             | Runtime validator and prompt-based test harness              |
 
 ---
+
+## Contracts
+
+This runtime inherits the following contracts:
+- `CONTRACT-v2025.1-FILE-INSTRUCTION.md`
+- `CONTRACT-v2025.1-PR-CREATION.md`
+- `CONTRACT-v2025.1-GITHUB-RELEASE.md`
+- `CONTRACT-v2025.1-DISCUSSION-PROPOSAL.md`
+- `CONTRACT-v2025.1-README-DOCS.md`
+- `CONTRACT-v2025.1-AGENT-INHERITANCE.md`
+- `THREAD-v2025.4-CORRECTION-MODEL.md`
+- `THREAD-v2025.4-INTERACTION-MODEL.md`
+
+---
+
+## Superseded
+
+This version supersedes:
+- `THREAD-v2025.4-LAUNCH.md`
+
+Archived governance thread declarations can be found in [`docs/THREAD-INDEX.md`](./docs/THREAD-INDEX.md)
+
+---
+
+Generated and maintained for GPT-parsable mesh governance. Runtime role defined in `THREAD-v2025.5-LAUNCH.md`
+
+---
+
+## 🧊 Runtime Freeze Status
+
+The governance runtime `v2025.5` is now frozen.
+
+No additional THREADs, CONTRACTs, or GPT actors may be declared under this version.  
+All governance logic must bind to `v2025.5` declarations.  
+Future changes must be declared in a superseding runtime (e.g., `v2025.6`).
+
+See [GitHub Release v2025.5](https://github.com/ni/labview-open-source-program/releases/tag/v2025.5) for full thread list.
+
