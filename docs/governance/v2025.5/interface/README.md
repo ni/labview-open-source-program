@@ -1,51 +1,50 @@
-# NI Runtime Governance — Version v2025.5
+# NI Runtime Governance v2025.5 — Structure Index
 
-This directory contains the authoritative governance documents that define roles, constraints, and runtime behavior for contributors and tooling within the NI open-source program.
+This directory contains the authoritative governance framework, declarations, automation logic, and contributor-facing documentation for NI Governance v2025.5.
 
-## 🔒 Runtime Version Declaration
+---
 
-- **Version:** v2025.5
-- **Declared Live:** 2025-06-01
-- **Status:** Active
-- **Scope:** All interactions governed under `THREAD-v2025.5-*` and `CONTRACT-v2025.1-*`
+## 📌 Runtime Tag
 
-## 🧭 File Structure
+This structure is bound to runtime version:
 
-### THREADs
+```
+Tag: v2025.5-runtime
+Branch: main
+```
 
-| File | Purpose |
-|------|---------|
-| `THREAD-v2025.5-LAUNCH.md` | Activates this governance version |
-| `THREAD-v2025.5-GOVERNANCE-SCOPE.md` | Limits interpretation to declared files |
-| `THREAD-v2025.5-CONTRIBUTING.md` | Defines contribution paths and constraints |
-| `THREAD-v2025.5-ENGAGEMENT-GUIDE.md` | Details interaction rules and lifecycle flows |
-| `THREAD-v2025.5-ROLE-CONTRIBUTORS.md` | Contributor role definitions |
-| `THREAD-v2025.5-ROLE-GPT.md` | GPT role constraints |
-| `THREAD-v2025.5-ROLE-STEERCO.md` | STEERCO authority and limitations |
+All tooling, GPTs, and contributors must interpret governance behavior strictly as declared in this versioned snapshot.
 
-### CONTRACTs
+---
 
-| File | Purpose |
-|------|---------|
-| `CONTRACT-v2025.1-FILE-INSTRUCTION.md` | Structural rules for file format |
-| `CONTRACT-v2025.1-AGENT-INHERITANCE.md` | GPT behavior inheritance constraints |
-| `CONTRACT-v2025.1-README-DOCS.md` | Human-readable README expectations (optional) |
+## 📁 Folder Overview
 
-## 👤 Human Operator Interface (Open Access)
+### `threads/`
+All declared `THREAD-v2025.5-*.md` governance files defining roles, lifecycle, and behavioral boundaries.
 
-This governance system is enforced primarily through automation (e.g. GPTs), but some responsibilities remain outside machine-enforced scope.
+### `contracts/`
+All `CONTRACT-v2025.1-*.md` files defining structural constraints and runtime interpretation models.
 
-Any contributor or stakeholder may act as a **human operator** to:
+### `runtime/`
+Operational artifacts:
+- `governance-manifest.json`
+- `GPT-TEST-RESULTS-v2025.5.md`
+- `GPT-TEST-LOG-v2025.5.md`
 
-- Post or modify governance documents
-- Raise questions GPTs cannot answer
-- Escalate contradictions or propose changes
+### `release/`
+- `RELEASE-NOTES-v2025.5.md`
+- `GOVERNANCE-CHANGELOG.md`
+- `FINALIZATION-LOG.md`
 
-See the [Governance Manifest](./governance-manifest.json) and [Validation Tests](./gpt-validation-tests.json) for structure and enforcement.
+### `interface/`
+Human-facing documentation:
+- This `README.md`
+- GPT integration guides
+- Contributor onboarding docs
 
-## 📬 Contributions
+---
 
-Changes must comply with:
-- Role maps
-- Declared file scope
-- The proposal lifecycle in `THREAD-v2025.5-CONTRIBUTING.md`
+## 🧠 Version Scope
+
+This version is runtime-locked under tag `v2025.5-runtime`.  
+Any changes beyond this point must be introduced under a future governance cycle (e.g., `v2025.6`).
