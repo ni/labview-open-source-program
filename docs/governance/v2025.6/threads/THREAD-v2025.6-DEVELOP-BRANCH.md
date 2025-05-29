@@ -26,5 +26,13 @@ This THREAD affects:
 
 ## 📄 Supporting Context
 
-- Sealing of `v2025.5-runtime` completed on 2025-05-29
-- All governance commits in `main` are now frozen as of `v2025.5`
+- `v2025.5-runtime` was sealed and frozen on 2025-05-29
+- All governance commits in `main` are now locked
+
+## 🛑 Lifecycle Notes
+
+This thread defines a transient development branch (`develop`) used to integrate governance proposals targeting `v2025.6`.
+
+This thread and branch are intended to be discarded once `v2025.6` is declared and sealed under a runtime tag.
+
+Tools, GPTs, or validators **must not bind to `develop`**, but may use it for pre-release validation.
