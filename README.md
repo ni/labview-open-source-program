@@ -49,3 +49,16 @@ Archived governance thread declarations can be found in [`docs/THREAD-INDEX.md`]
 ---
 
 Generated and maintained for GPT-parsable mesh governance. Runtime role defined in `THREAD-v2025.5-LAUNCH.md`
+
+---
+
+## 🧊 Runtime Freeze Status
+
+The governance runtime `v2025.5` is now frozen.
+
+No additional THREADs, CONTRACTs, or GPT actors may be declared under this version.  
+All governance logic must bind to `v2025.5` declarations.  
+Future changes must be declared in a superseding runtime (e.g., `v2025.6`).
+
+See [GitHub Release v2025.5](https://github.com/ni/labview-open-source-program/releases/tag/v2025.5) for full thread list.
+
