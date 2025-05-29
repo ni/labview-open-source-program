@@ -19,6 +19,7 @@
       "CONTRACT-v2025.1-README-DOCS.md"
     ]
   },
+  "declared_tag": "v2025.5-runtime",
   "status": "active",
   "source": "https://github.com/ni/labview-open-source-program/tree/main/docs/governance/v2025.5"
 }
