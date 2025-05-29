@@ -4,33 +4,47 @@ This directory contains the authoritative governance framework, declarations, au
 
 ---
 
+## 📌 Runtime Tag
+
+This structure is bound to runtime version:
+
+```
+Tag: v2025.5-runtime
+Branch: main
+```
+
+All tooling, GPTs, and contributors must interpret governance behavior strictly as declared in this versioned snapshot.
+
+---
+
 ## 📁 Folder Overview
 
 ### `threads/`
-Contains all declared `THREAD-v2025.5-*.md` governance files, defining roles, lifecycle, and behavioral boundaries.
+All declared `THREAD-v2025.5-*.md` governance files defining roles, lifecycle, and behavioral boundaries.
 
 ### `contracts/`
-Holds all `CONTRACT-v2025.1-*.md` files, outlining structural constraints and runtime interpretation models.
+All `CONTRACT-v2025.1-*.md` files defining structural constraints and runtime interpretation models.
 
 ### `runtime/`
-Includes operational artifacts generated or consumed during governance enforcement, such as:
+Operational artifacts:
 - `governance-manifest.json`
 - `GPT-TEST-RESULTS-v2025.5.md`
 - `GPT-TEST-LOG-v2025.5.md`
 
 ### `release/`
-Stores version-tagged declarations, changelogs, and governance release notes:
 - `RELEASE-NOTES-v2025.5.md`
 - `GOVERNANCE-CHANGELOG.md`
+- `FINALIZATION-LOG.md`
 
 ### `interface/`
-Provides human-readable documentation and UX guidance:
-- `README.md`
-- `GPT-INTEGRATION-v2025.5.md` (if public)
-- Contributor guides and onboarding instructions
+Human-facing documentation:
+- This `README.md`
+- GPT integration guides
+- Contributor onboarding docs
 
 ---
 
 ## 🧠 Version Scope
 
-This directory is scoped to governance version `v2025.5`, tagged as `v2025.5-declared`. All behavior, GPT integration, and testing flows are bound to this declared scope.
+This version is runtime-locked under tag `v2025.5-runtime`.  
+Any changes beyond this point must be introduced under a future governance cycle (e.g., `v2025.6`).
