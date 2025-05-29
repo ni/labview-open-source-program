@@ -1,0 +1,24 @@
+{
+  "runtime": "v2025.5",
+  "declared_on": "2025-06-01",
+  "threads": [
+    "THREAD-v2025.5-LAUNCH.md",
+    "THREAD-v2025.5-GOVERNANCE-SCOPE.md",
+    "THREAD-v2025.5-CONTRIBUTING.md",
+    "THREAD-v2025.5-ENGAGEMENT-GUIDE.md",
+    "THREAD-v2025.5-ROLE-CONTRIBUTORS.md",
+    "THREAD-v2025.5-ROLE-GPT.md",
+    "THREAD-v2025.5-ROLE-STEERCO.md"
+  ],
+  "contracts": {
+    "required": [
+      "CONTRACT-v2025.1-FILE-INSTRUCTION.md",
+      "CONTRACT-v2025.1-AGENT-INHERITANCE.md"
+    ],
+    "optional": [
+      "CONTRACT-v2025.1-README-DOCS.md"
+    ]
+  },
+  "status": "active",
+  "source": "https://github.com/ni/labview-open-source-program/tree/main/docs/governance/v2025.5"
+}
