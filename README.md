@@ -6,54 +6,39 @@ This repository defines the structure, policies, and governance contracts that s
 
 ## GPT Governance Mesh
 
-This program is now actively governed by GPT agents bound to versioned threads.  
-The operational mesh was launched under:
+This program is governed by GPT agents declared under `THREAD-v*.md` threads.  
+The current runtime version is defined by:
 
-- `THREAD-v2025.4-LAUNCH.md`: Declares the GPT runtime and actor model
-
-Each GPT in this mesh must:
-
-- Inherit from the LabVIEW Open Source Program GPT
-- Declare its behavior via a `THREAD-v*.md`
-- Bind to all contracts defined under `v2025.1`
+- `THREAD-v2025.4-LAUNCH.md`: Mesh origin
+- `THREAD-v2025.4-CORRECTION-MODEL.md`: Runtime enforcement model
+- `THREAD-v2025.4-INTERACTION-MODEL.md`: GPT-to-operator interaction model
 
 ---
 
 ## GPT Role Registry
 
-| Role                               | Thread Reference                                | Description                                                |
-|------------------------------------|--------------------------------------------------|------------------------------------------------------------|
-| LabVIEW Open Source Program GPT    | `THREAD-v2025.99-LABVIEW-OSP.md`                 | Root authority for all child agents                        |
-| Governance Sentinel GPT            | `THREAD-v2025.99-GOVERNANCE-SENTINEL.md`         | Observes repository compliance and continuity              |
-| LabVIEW Open Source Program GPT (Replica) | `THREAD-v2025.3-REPLICATION.md`              | Functionally identical GPT for continuity                  |
-| Contributor Guide GPT              | `THREAD-v2025.4.2-CONTRIBUTOR-GUIDE.md`          | Precision-scoped GPT that assists with contribution flow   |
+| Role                         | Thread Reference                          | Description                                                  |
+|------------------------------|--------------------------------------------|--------------------------------------------------------------|
+| LabVIEW Open Source Program GPT | `THREAD-v2025.99-LABVIEW-OSP.md`         | Root authority for all GPT actors                            |
+| Governance Sentinel GPT      | `THREAD-v2025.99-GOVERNANCE-SENTINEL.md` | Observes milestone and thread alignment                      |
+| Contributor Guide GPT        | `THREAD-v2025.4.2-CONTRIBUTOR-GUIDE.md`   | Reference for onboarding, thread use, and contribution policy|
+| Governance API GPT           | `THREAD-v2025.4.2-GOVERNANCE-API.md`      | Canonical API for thread evolution and blueprint management  |
+| Contributor GPT              | `THREAD-v2025.4.3-CONTRIBUTOR-GPT.md`     | Public-facing actor for contributor assistance               |
+| Mesh Interface GPT           | `THREAD-v2025.4.3-MESH-INTERFACE.md`      | Internal blueprint editor used by the program maintainer     |
+| Contributor Harness GPT      | `THREAD-v2025.4.3-HARNESS.md`             | Runtime validator and prompt-based test harness              |
 
 ---
 
-## Governance Threads
+## Governance Contracts
 
-Declared in versioned `THREAD-*.md` files, governance threads encode the structure, behavior, and inheritance of GPT roles.
-
-See the full index in [`docs/THREAD-INDEX.md`](./docs/THREAD-INDEX.md)
-
----
-
-## Governance Contracts (v2025.1)
-
-These documents define how GPTs behave, bind, and interact with the NI open-source governance lifecycle:
-
-- `CONTRACT-v2025.1-FILE-INSTRUCTION.md`  
-- `CONTRACT-v2025.1-PR-CREATION.md`  
-- `CONTRACT-v2025.1-GITHUB-RELEASE.md`  
-- `CONTRACT-v2025.1-DISCUSSION-PROPOSAL.md`  
-- `CONTRACT-v2025.1-README-DOCS.md`  
-- `CONTRACT-v2025.1-AGENT-INHERITANCE.md`
+Declared in versioned `CONTRACT-v*.md` files.  
+Full index available in [`docs/THREAD-INDEX.md`](./docs/THREAD-INDEX.md)
 
 ---
 
 ## Version
 
-Current governance spec version: `v2025.4.2`
+Current runtime governance version: `v2025.4.3`
 
 ---
 Generated and maintained by LabVIEW Open Source Program GPT (strict rebind mode)
