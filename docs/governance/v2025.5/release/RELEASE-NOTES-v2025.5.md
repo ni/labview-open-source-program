@@ -10,28 +10,39 @@
 
 NI Runtime Governance v2025.5 is the first fully declared and enforceable governance cycle. It introduces a complete THREAD and CONTRACT model to govern behavior, roles, and runtime safety for contributors, GPTs, and the STEERCO.
 
+This version also formalizes a file structure isolating governance logic, testing output, release history, and human-facing interfaces.
+
 ---
 
 ## 🧩 Contents
 
 ### THREADs
-- `THREAD-v2025.5-LAUNCH.md` — Runtime activation declaration
-- `THREAD-v2025.5-GOVERNANCE-SCOPE.md` — Limits file interpretation scope
-- `THREAD-v2025.5-CONTRIBUTING.md` — Contribution flow and proposal model
-- `THREAD-v2025.5-ENGAGEMENT-GUIDE.md` — Interaction rules
-- `THREAD-v2025.5-ROLE-CONTRIBUTORS.md` — Contributor constraints
-- `THREAD-v2025.5-ROLE-GPT.md` — GPT behavior enforcement
-- `THREAD-v2025.5-ROLE-STEERCO.md` — STEERCO authority model
+Located in: `docs/governance/v2025.5/threads/`
+- `THREAD-v2025.5-LAUNCH.md`
+- `THREAD-v2025.5-GOVERNANCE-SCOPE.md`
+- `THREAD-v2025.5-CONTRIBUTING.md`
+- `THREAD-v2025.5-ENGAGEMENT-GUIDE.md`
+- `THREAD-v2025.5-ROLE-CONTRIBUTORS.md`
+- `THREAD-v2025.5-ROLE-GPT.md`
+- `THREAD-v2025.5-ROLE-STEERCO.md`
 
 ### CONTRACTs
-- `CONTRACT-v2025.1-FILE-INSTRUCTION.md` — Markdown parsing rules
-- `CONTRACT-v2025.1-AGENT-INHERITANCE.md` — GPT inheritance and limits
-- `CONTRACT-v2025.1-README-DOCS.md` — (Optional) README structure rules
+Located in: `docs/governance/v2025.5/contracts/`
+- `CONTRACT-v2025.1-FILE-INSTRUCTION.md`
+- `CONTRACT-v2025.1-AGENT-INHERITANCE.md`
+- `CONTRACT-v2025.1-README-DOCS.md` (optional)
 
 ### System Support
-- `governance-manifest.json` — Declares all valid files
-- `gpt-validation-tests.json` — Enforces GPT behavior validation
-- `README.md` — Human operator interface and quick navigation
+Located in: `docs/governance/v2025.5/runtime/`
+- `governance-manifest.json`
+- `gpt-validation-tests.json`
+- `GPT-TEST-LOG-v2025.5.md`
+- `GPT-TEST-RESULTS-v2025.5.md` (WIP or partial)
+  
+### Contributor Interface
+Located in: `docs/governance/v2025.5/interface/`
+- `README.md`
+- All GPT integration guides
 
 ---
 
