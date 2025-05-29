@@ -4,14 +4,10 @@ This repository defines the structure, policies, and governance contracts that s
 
 ---
 
-## GPT Governance Mesh
+## Version
+Current runtime governance version: v2025.5
 
-This program is governed by GPT agents declared under `THREAD-v*.md` threads.  
-The current runtime version is defined by:
-
-- `THREAD-v2025.4-LAUNCH.md`: Mesh origin
-- `THREAD-v2025.4-CORRECTION-MODEL.md`: Runtime enforcement model
-- `THREAD-v2025.4-INTERACTION-MODEL.md`: GPT-to-operator interaction model
+Declared runtime thread: `THREAD-v2025.5-LAUNCH.md`
 
 ---
 
@@ -29,16 +25,27 @@ The current runtime version is defined by:
 
 ---
 
-## Governance Contracts
+## Contracts
 
-Declared in versioned `CONTRACT-v*.md` files.  
-Full index available in [`docs/THREAD-INDEX.md`](./docs/THREAD-INDEX.md)
+This runtime inherits the following contracts:
+- `CONTRACT-v2025.1-FILE-INSTRUCTION.md`
+- `CONTRACT-v2025.1-PR-CREATION.md`
+- `CONTRACT-v2025.1-GITHUB-RELEASE.md`
+- `CONTRACT-v2025.1-DISCUSSION-PROPOSAL.md`
+- `CONTRACT-v2025.1-README-DOCS.md`
+- `CONTRACT-v2025.1-AGENT-INHERITANCE.md`
+- `THREAD-v2025.4-CORRECTION-MODEL.md`
+- `THREAD-v2025.4-INTERACTION-MODEL.md`
 
 ---
 
-## Version
+## Superseded
 
-Current runtime governance version: `v2025.4.3`
+This version supersedes:
+- `THREAD-v2025.4-LAUNCH.md`
+
+Archived governance thread declarations can be found in [`docs/THREAD-INDEX.md`](./docs/THREAD-INDEX.md)
 
 ---
-Generated and maintained by LabVIEW Open Source Program GPT (strict rebind mode)
+
+Generated and maintained for GPT-parsable mesh governance. Runtime role defined in `THREAD-v2025.5-LAUNCH.md`
