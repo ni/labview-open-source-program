@@ -1,8 +1,8 @@
 # NI Runtime Governance – Release Notes
 
-## Version: v2025.5-declared  
-**Date Declared:** 2025-05-29  
-**Tag:** `v2025.5-declared`
+## Version: v2025.5  
+**Runtime Tag:** `v2025.5-runtime`  
+**Declared On:** 2025-05-29
 
 ---
 
@@ -16,7 +16,7 @@ This version also formalizes a file structure isolating governance logic, testin
 
 ## 🧩 Contents
 
-### THREADs
+### THREADs  
 Located in: `docs/governance/v2025.5/threads/`
 - `THREAD-v2025.5-LAUNCH.md`
 - `THREAD-v2025.5-GOVERNANCE-SCOPE.md`
@@ -26,20 +26,20 @@ Located in: `docs/governance/v2025.5/threads/`
 - `THREAD-v2025.5-ROLE-GPT.md`
 - `THREAD-v2025.5-ROLE-STEERCO.md`
 
-### CONTRACTs
+### CONTRACTs  
 Located in: `docs/governance/v2025.5/contracts/`
 - `CONTRACT-v2025.1-FILE-INSTRUCTION.md`
 - `CONTRACT-v2025.1-AGENT-INHERITANCE.md`
 - `CONTRACT-v2025.1-README-DOCS.md` (optional)
 
-### System Support
+### System Support  
 Located in: `docs/governance/v2025.5/runtime/`
 - `governance-manifest.json`
 - `gpt-validation-tests.json`
 - `GPT-TEST-LOG-v2025.5.md`
-- `GPT-TEST-RESULTS-v2025.5.md` (WIP or partial)
-  
-### Contributor Interface
+- `GPT-TEST-RESULTS-v2025.5.md`
+
+### Contributor Interface  
 Located in: `docs/governance/v2025.5/interface/`
 - `README.md`
 - All GPT integration guides
@@ -48,7 +48,13 @@ Located in: `docs/governance/v2025.5/interface/`
 
 ## ✅ Activation
 
-This governance version takes effect immediately and must be enforced by all GPT-based tooling and contributor processes.
+This governance runtime is frozen at:
 
-Declared Tag: `v2025.5-declared`  
-Declared Folder: `docs/governance/v2025.5/`
+```
+Tag: v2025.5-runtime
+Branch: main
+```
+
+All GPTs, validators, contributors, and governance tools must interpret governance behavior **strictly under this snapshot**.
+
+Any governance updates must occur under a future version (e.g., `v2025.6`) and declare their own runtime tag.
