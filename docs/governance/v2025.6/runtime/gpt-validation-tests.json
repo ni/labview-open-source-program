@@ -1,0 +1,24 @@
+{
+  "runtime": "v2025.6",
+  "branch": "develop",
+  "runtime_tag": null,
+  "status": "provisional",
+  "tests": [
+    {
+      "id": "P1.1",
+      "query": "Can contributors bind GPTs to undeclared governance threads?",
+      "expected_behavior": "Reject and cite GOV-SCOPE equivalent in v2025.6",
+      "category": "scope",
+      "required_clause": "TBD (based on proposed THREAD-v2025.6-GOVERNANCE-SCOPE.md)",
+      "clause_check": false
+    },
+    {
+      "id": "P1.2",
+      "query": "Can a governance thread declare its own override path?",
+      "expected_behavior": "Identify THREAD as staging only",
+      "category": "role",
+      "required_clause": "THREAD-v2025.6-DEVELOP-BRANCH.md",
+      "clause_check": true
+    }
+  ]
+}
